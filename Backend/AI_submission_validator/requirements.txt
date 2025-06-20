@@ -1,0 +1,28 @@
+# UI Framework
+streamlit
+
+# PDF & Image Processing
+pymupdf                   # For extracting text from PDFs
+pillow                    # Image handling (PIL)
+pytesseract               # OCR for images
+opencv-python-headless    # For QR code scanning (no GUI required)
+
+# LangChain & Embeddings (Agentic AI + RAG)
+langchain                 # Core LangChain framework
+langchain-community       # Required for retrievers and 
+faiss-cpu                 # Local vector store for semembeddingsantic search
+sentence-transformers     # For generating vector embeddings
+
+# Generative AI & Tools
+google-generativeai       # Direct Gemini API access 
+langchain-google-genai    # Gemini LLM wrapper for LangChain
+tavily-python             # Web search tool for agents 
+
+# Environment Handling
+python-dotenv             # Load API keys and env variables from .env
+
+# API Framework
+fastapi
+uvicorn
+ 
+webdriver-manage

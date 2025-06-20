@@ -35,7 +35,7 @@ Backend/AI_submission_validator/
 
 ## :file_folder: Frontend - (Vite React)
 ```
-CLINT/
+CLIENT/
 ├── node_modules/
 ├── public/
 ├── src/
@@ -118,7 +118,7 @@ Frontend: http://localhost:5173/
 
 ## Kindly find the working video and the architecture workflow in the Hackathon/AI_submission_validator folder
 
-
+**Workflow link** : https://drive.google.com/file/d/1nbXzbW4EGWg9KCnFl981ARJjWk1Hol0b/view?usp=sharing
 By
 Pathu T
 PF 6

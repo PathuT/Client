@@ -1,0 +1,213 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+body, html, #root {
+  height: 100%;
+  background-color: #f5f8ff;
+}
+
+.landing {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.landing-header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f0f4f8;
+  border-radius: 12px;
+}
+
+.landing-header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.landing-header p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 1rem 0 2rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.section {
+  margin: 3rem 0;
+}
+
+.workflow-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.workflow-grid > div {
+  flex: 1;
+  min-width: 280px;
+}
+
+footer {
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+
+
+/* Auth / Login page container */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e0e7ff, #f9fafb);
+  padding: 20px;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form label {
+  margin: 0.75rem 0 0.25rem;
+  font-weight: 600;
+}
+
+.auth-form input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Button is already styled as .btn-primary in previous CSS */
+.submission-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1e293b;
+}
+
+.submission-container h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #1e40af;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+input[type="file"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  background-color: #f8fafc;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af;
+}
+
+.error {
+  color: #b91c1c;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.success {
+  color: #16a34a;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.loading {
+  margin-top: 12px;
+  font-style: italic;
+}
+
+.results {
+  margin-top: 32px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section code {
+  display: block;
+  white-space: pre-wrap;
+  background: #f1f5f9;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: monospace;
+}

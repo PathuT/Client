@@ -35,7 +35,7 @@ Backend/AI_submission_validator/
 
 ## :file_folder: Frontend - (Vite React)
 ```
-CLINT/
+CLIENT/
 ├── node_modules/
 ├── public/
 ├── src/
